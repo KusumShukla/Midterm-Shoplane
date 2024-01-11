@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+    background-color: azure;
+    font-family: 'Oswald', sans-serif;
+}
+
+.wrapper {
+    background-color: aliceblue;
+    padding: 40px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.mrp {
+    font-size: 22px;
+    color: #888;
+    margin-left: 10px;
+}
+
+.cart {
+    align-items: right;
+    color: blue;
+    /* height: 80px;
+    width: 80px;
+    display: flex;
+margin-top: 50px; */
+}
+.navbar-brand {
+color:rgb(0, 204, 255) 
+}
+.product-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Adding transition for smooth color change on hover */
+  }
+  
+  .product-link:hover {
+    color: lightgray; /* Color when hovering */
+  }
+  
+  #navbarSupportedContent{
+    color: blue;
+  }
